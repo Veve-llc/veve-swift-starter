@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A576DD3D218A8543002CCF50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576DD3C218A8543002CCF50 /* AppDelegate.swift */; };
+		A576DD3F218A8543002CCF50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576DD3E218A8543002CCF50 /* ViewController.swift */; };
+		A576DD42218A8543002CCF50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A576DD40218A8543002CCF50 /* Main.storyboard */; };
+		A576DD45218A8543002CCF50 /* Veve.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A576DD43218A8543002CCF50 /* Veve.xcdatamodeld */; };
+		A576DD47218A8544002CCF50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A576DD46218A8544002CCF50 /* Assets.xcassets */; };
+		A576DD4A218A8544002CCF50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A576DD48218A8544002CCF50 /* LaunchScreen.storyboard */; };
+		A576DD55218A8544002CCF50 /* VeveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576DD54218A8544002CCF50 /* VeveTests.swift */; };
+		A576DD60218A8544002CCF50 /* VeveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576DD5F218A8544002CCF50 /* VeveUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A576DD51218A8544002CCF50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A576DD31218A8543002CCF50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A576DD38218A8543002CCF50;
+			remoteInfo = Veve;
+		};
+		A576DD5C218A8544002CCF50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A576DD31218A8543002CCF50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A576DD38218A8543002CCF50;
+			remoteInfo = Veve;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A576DD39218A8543002CCF50 /* Veve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veve.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A576DD3C218A8543002CCF50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A576DD3E218A8543002CCF50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A576DD41218A8543002CCF50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A576DD44218A8543002CCF50 /* Veve.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Veve.xcdatamodel; sourceTree = "<group>"; };
+		A576DD46218A8544002CCF50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A576DD49218A8544002CCF50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A576DD4B218A8544002CCF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A576DD50218A8544002CCF50 /* VeveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A576DD54218A8544002CCF50 /* VeveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeveTests.swift; sourceTree = "<group>"; };
+		A576DD56218A8544002CCF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A576DD5B218A8544002CCF50 /* VeveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VeveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A576DD5F218A8544002CCF50 /* VeveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VeveUITests.swift; sourceTree = "<group>"; };
+		A576DD61218A8544002CCF50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A576DD36218A8543002CCF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A576DD4D218A8544002CCF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A576DD58218A8544002CCF50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A576DD30218A8543002CCF50 = {
+			isa = PBXGroup;
+			children = (
+				A576DD3B218A8543002CCF50 /* Veve */,
+				A576DD53218A8544002CCF50 /* VeveTests */,
+				A576DD5E218A8544002CCF50 /* VeveUITests */,
+				A576DD3A218A8543002CCF50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A576DD3A218A8543002CCF50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A576DD39218A8543002CCF50 /* Veve.app */,
+				A576DD50218A8544002CCF50 /* VeveTests.xctest */,
+				A576DD5B218A8544002CCF50 /* VeveUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A576DD3B218A8543002CCF50 /* Veve */ = {
+			isa = PBXGroup;
+			children = (
+				A576DD3C218A8543002CCF50 /* AppDelegate.swift */,
+				A576DD3E218A8543002CCF50 /* ViewController.swift */,
+				A576DD40218A8543002CCF50 /* Main.storyboard */,
+				A576DD46218A8544002CCF50 /* Assets.xcassets */,
+				A576DD48218A8544002CCF50 /* LaunchScreen.storyboard */,
+				A576DD4B218A8544002CCF50 /* Info.plist */,
+				A576DD43218A8543002CCF50 /* Veve.xcdatamodeld */,
+			);
+			path = Veve;
+			sourceTree = "<group>";
+		};
+		A576DD53218A8544002CCF50 /* VeveTests */ = {
+			isa = PBXGroup;
+			children = (
+				A576DD54218A8544002CCF50 /* VeveTests.swift */,
+				A576DD56218A8544002CCF50 /* Info.plist */,
+			);
+			path = VeveTests;
+			sourceTree = "<group>";
+		};
+		A576DD5E218A8544002CCF50 /* VeveUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A576DD5F218A8544002CCF50 /* VeveUITests.swift */,
+				A576DD61218A8544002CCF50 /* Info.plist */,
+			);
+			path = VeveUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A576DD38218A8543002CCF50 /* Veve */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A576DD64218A8544002CCF50 /* Build configuration list for PBXNativeTarget "Veve" */;
+			buildPhases = (
+				A576DD35218A8543002CCF50 /* Sources */,
+				A576DD36218A8543002CCF50 /* Frameworks */,
+				A576DD37218A8543002CCF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Veve;
+			productName = Veve;
+			productReference = A576DD39218A8543002CCF50 /* Veve.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A576DD4F218A8544002CCF50 /* VeveTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A576DD67218A8544002CCF50 /* Build configuration list for PBXNativeTarget "VeveTests" */;
+			buildPhases = (
+				A576DD4C218A8544002CCF50 /* Sources */,
+				A576DD4D218A8544002CCF50 /* Frameworks */,
+				A576DD4E218A8544002CCF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A576DD52218A8544002CCF50 /* PBXTargetDependency */,
+			);
+			name = VeveTests;
+			productName = VeveTests;
+			productReference = A576DD50218A8544002CCF50 /* VeveTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A576DD5A218A8544002CCF50 /* VeveUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A576DD6A218A8544002CCF50 /* Build configuration list for PBXNativeTarget "VeveUITests" */;
+			buildPhases = (
+				A576DD57218A8544002CCF50 /* Sources */,
+				A576DD58218A8544002CCF50 /* Frameworks */,
+				A576DD59218A8544002CCF50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A576DD5D218A8544002CCF50 /* PBXTargetDependency */,
+			);
+			name = VeveUITests;
+			productName = VeveUITests;
+			productReference = A576DD5B218A8544002CCF50 /* VeveUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A576DD31218A8543002CCF50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Jamal Rasool";
+				TargetAttributes = {
+					A576DD38218A8543002CCF50 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					A576DD4F218A8544002CCF50 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A576DD38218A8543002CCF50;
+					};
+					A576DD5A218A8544002CCF50 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = A576DD38218A8543002CCF50;
+					};
+				};
+			};
+			buildConfigurationList = A576DD34218A8543002CCF50 /* Build configuration list for PBXProject "Veve" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A576DD30218A8543002CCF50;
+			productRefGroup = A576DD3A218A8543002CCF50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A576DD38218A8543002CCF50 /* Veve */,
+				A576DD4F218A8544002CCF50 /* VeveTests */,
+				A576DD5A218A8544002CCF50 /* VeveUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A576DD37218A8543002CCF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A576DD4A218A8544002CCF50 /* LaunchScreen.storyboard in Resources */,
+				A576DD47218A8544002CCF50 /* Assets.xcassets in Resources */,
+				A576DD42218A8543002CCF50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A576DD4E218A8544002CCF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A576DD59218A8544002CCF50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A576DD35218A8543002CCF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A576DD3F218A8543002CCF50 /* ViewController.swift in Sources */,
+				A576DD3D218A8543002CCF50 /* AppDelegate.swift in Sources */,
+				A576DD45218A8543002CCF50 /* Veve.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A576DD4C218A8544002CCF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A576DD55218A8544002CCF50 /* VeveTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A576DD57218A8544002CCF50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A576DD60218A8544002CCF50 /* VeveUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A576DD52218A8544002CCF50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A576DD38218A8543002CCF50 /* Veve */;
+			targetProxy = A576DD51218A8544002CCF50 /* PBXContainerItemProxy */;
+		};
+		A576DD5D218A8544002CCF50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A576DD38218A8543002CCF50 /* Veve */;
+			targetProxy = A576DD5C218A8544002CCF50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A576DD40218A8543002CCF50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A576DD41218A8543002CCF50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A576DD48218A8544002CCF50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A576DD49218A8544002CCF50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A576DD62218A8544002CCF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A576DD63218A8544002CCF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A576DD65218A8544002CCF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZZP22A3W8;
+				INFOPLIST_FILE = Veve/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Veve.Veve;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A576DD66218A8544002CCF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZZP22A3W8;
+				INFOPLIST_FILE = Veve/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Veve.Veve;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A576DD68218A8544002CCF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZZP22A3W8;
+				INFOPLIST_FILE = VeveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Veve.VeveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veve.app/Veve";
+			};
+			name = Debug;
+		};
+		A576DD69218A8544002CCF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZZP22A3W8;
+				INFOPLIST_FILE = VeveTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Veve.VeveTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veve.app/Veve";
+			};
+			name = Release;
+		};
+		A576DD6B218A8544002CCF50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZZP22A3W8;
+				INFOPLIST_FILE = VeveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Veve.VeveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Veve;
+			};
+			name = Debug;
+		};
+		A576DD6C218A8544002CCF50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4ZZP22A3W8;
+				INFOPLIST_FILE = VeveUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Veve.VeveUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Veve;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A576DD34218A8543002CCF50 /* Build configuration list for PBXProject "Veve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A576DD62218A8544002CCF50 /* Debug */,
+				A576DD63218A8544002CCF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A576DD64218A8544002CCF50 /* Build configuration list for PBXNativeTarget "Veve" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A576DD65218A8544002CCF50 /* Debug */,
+				A576DD66218A8544002CCF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A576DD67218A8544002CCF50 /* Build configuration list for PBXNativeTarget "VeveTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A576DD68218A8544002CCF50 /* Debug */,
+				A576DD69218A8544002CCF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A576DD6A218A8544002CCF50 /* Build configuration list for PBXNativeTarget "VeveUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A576DD6B218A8544002CCF50 /* Debug */,
+				A576DD6C218A8544002CCF50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A576DD43218A8543002CCF50 /* Veve.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A576DD44218A8543002CCF50 /* Veve.xcdatamodel */,
+			);
+			currentVersion = A576DD44218A8543002CCF50 /* Veve.xcdatamodel */;
+			path = Veve.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A576DD31218A8543002CCF50 /* Project object */;
+}
