@@ -9,13 +9,17 @@
 Kick off your project with this opinionated boilerplate. This barebones starter ships with the main swift configuration files you might need.
 
 ## Installation
+We recommend you clone the repo for easiest implementation:
 
+```
+git clone https://github.com/Veve-llc/veve-swift-starter.git
+```
 
 ## Usage
 
 There is 14  packages in this repository:
-* Arrow (4.2.0)
-* BWWalkthrough (3.0.1)
+* Arrow (4.2.0) [Documentation](https://github.com/freshOS/Arrow)
+* BWWalkthrough (3.0.1) [Documentation](https://github.com/ariok/BWWalkthrough/)
 * Blueprints (0.8.6)
 * Cache (5.2.0)
 * ClusterKit (0.3.5)
@@ -37,8 +41,8 @@ It is designed to be an easy, and ready to go start off tempalate for your swift
 
 ## Requirements
 
-*iOS 9.3+
-*Xcode 10
+* iOS 9.3+
+* Xcode 10
 
 ## Documentation
 
