@@ -19,6 +19,7 @@ class ViewController: UIViewController {
         miniMaxSum()
         birthdayCakeCandles()
         timeConversion()
+        sockMerchant()
     }
     
     fileprivate func diaganolDifference() {
@@ -190,38 +191,27 @@ class ViewController: UIViewController {
         }
     }
     
-    func countSentences(wordSet: [String], sentences: [String]) -> [Int] {
-        // Write your code here
-        var numOfValues : [Int] = []
-        let num_words = wordSet.count
-        let num_sentences = sentences.count
-        var keyValues : [Int] = []
-        var tempArraySlice = sentences.split(separator: " ")
-        let sentenceArray = Array(tempArraySlice) // Problem line
-        
-        
-        for i in 0..<num_sentences {
-            var trueCounter: Int = 0
-            for j in 0..<num_words {
-                var counter : Int = 0
-                // value2 needs tob e converted into a slice (requires more time)
-                if(isAnAnagram(value1: wordSet[i],value2: sentenceArray[i])) {
-                    counter += 1
-                }
-                
-                if(counter == sentenceArray.count) {
-                    trueCounter += 1
-                }
-            }
-            keyValues.append(trueCounter)
-            
-        }
-        return numOfValues
-    }
-    
-    
     func isAnAnagram(value1: String, value2: String) -> Bool {
         return value1.lowercased().characters.sorted() == value2.lowercased().characters.sorted()
+    }
+    
+    func sockMerchant() -> Void {
+        let ar: [Int] = [10, 20, 20, 10, 10, 30, 50, 10, 20]
+        var tempar: [Int]
+        let n = ar.count
+        var num_pair : Int = 0
+        var initialVal: [Int]
+        
+        for i in 0..<n {
+            
+            if(ar.contains(i)){
+                num_pair += 1
+                
+            } else {
+                
+            }
+        }
+        print(num_pair)
     }
 
 }

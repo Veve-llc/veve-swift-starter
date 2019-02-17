@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		158BEDA7F9C08E2FEBCC33C7 /* Pods_Veve.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E84EBDBC3B45FED0304146F /* Pods_Veve.framework */; };
+		23858980F31EE212344300C5 /* Pods_VeveTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5343A7CDBDC641338E2E3504 /* Pods_VeveTests.framework */; };
 		A576DD3D218A8543002CCF50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576DD3C218A8543002CCF50 /* AppDelegate.swift */; };
 		A576DD3F218A8543002CCF50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576DD3E218A8543002CCF50 /* ViewController.swift */; };
 		A576DD42218A8543002CCF50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A576DD40218A8543002CCF50 /* Main.storyboard */; };
@@ -15,6 +17,7 @@
 		A576DD4A218A8544002CCF50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A576DD48218A8544002CCF50 /* LaunchScreen.storyboard */; };
 		A576DD55218A8544002CCF50 /* VeveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576DD54218A8544002CCF50 /* VeveTests.swift */; };
 		A576DD60218A8544002CCF50 /* VeveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A576DD5F218A8544002CCF50 /* VeveUITests.swift */; };
+		F8F145A6BC651D81C13B354E /* Pods_VeveUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6793CFD34051E72C4D93967B /* Pods_VeveUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		015878139BFC41C277BB9B60 /* Pods-Veve.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veve.release.xcconfig"; path = "Pods/Target Support Files/Pods-Veve/Pods-Veve.release.xcconfig"; sourceTree = "<group>"; };
+		01CCD2AF036E6639E22ACA7B /* Pods-VeveUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeveUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VeveUITests/Pods-VeveUITests.release.xcconfig"; sourceTree = "<group>"; };
+		2E84EBDBC3B45FED0304146F /* Pods_Veve.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Veve.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FA918DF06382C291F881088 /* Pods-Veve.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Veve.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Veve/Pods-Veve.debug.xcconfig"; sourceTree = "<group>"; };
+		5343A7CDBDC641338E2E3504 /* Pods_VeveTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeveTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6793CFD34051E72C4D93967B /* Pods_VeveUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VeveUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B69C54533DDE0F41E22605A /* Pods-VeveTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeveTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-VeveTests/Pods-VeveTests.release.xcconfig"; sourceTree = "<group>"; };
+		98F943C25B26A0C224839855 /* Pods-VeveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VeveTests/Pods-VeveTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9FDD608783C23F6CE4D86727 /* Pods-VeveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VeveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VeveUITests/Pods-VeveUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		A576DD39218A8543002CCF50 /* Veve.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Veve.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A576DD3C218A8543002CCF50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A576DD3E218A8543002CCF50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +68,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				158BEDA7F9C08E2FEBCC33C7 /* Pods_Veve.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				23858980F31EE212344300C5 /* Pods_VeveTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +84,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F8F145A6BC651D81C13B354E /* Pods_VeveUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58276E0B59B35B90C275CA71 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2E84EBDBC3B45FED0304146F /* Pods_Veve.framework */,
+				5343A7CDBDC641338E2E3504 /* Pods_VeveTests.framework */,
+				6793CFD34051E72C4D93967B /* Pods_VeveUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A367556A92477231673144FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2FA918DF06382C291F881088 /* Pods-Veve.debug.xcconfig */,
+				015878139BFC41C277BB9B60 /* Pods-Veve.release.xcconfig */,
+				98F943C25B26A0C224839855 /* Pods-VeveTests.debug.xcconfig */,
+				6B69C54533DDE0F41E22605A /* Pods-VeveTests.release.xcconfig */,
+				9FDD608783C23F6CE4D86727 /* Pods-VeveUITests.debug.xcconfig */,
+				01CCD2AF036E6639E22ACA7B /* Pods-VeveUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		A576DD30218A8543002CCF50 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +121,8 @@
 				A576DD53218A8544002CCF50 /* VeveTests */,
 				A576DD5E218A8544002CCF50 /* VeveUITests */,
 				A576DD3A218A8543002CCF50 /* Products */,
+				A367556A92477231673144FE /* Pods */,
+				58276E0B59B35B90C275CA71 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -135,9 +175,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A576DD64218A8544002CCF50 /* Build configuration list for PBXNativeTarget "Veve" */;
 			buildPhases = (
+				9CB60799AC3592EC9F7043B6 /* [CP] Check Pods Manifest.lock */,
 				A576DD35218A8543002CCF50 /* Sources */,
 				A576DD36218A8543002CCF50 /* Frameworks */,
 				A576DD37218A8543002CCF50 /* Resources */,
+				F7CD68698D53828364A0C0D7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +194,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A576DD67218A8544002CCF50 /* Build configuration list for PBXNativeTarget "VeveTests" */;
 			buildPhases = (
+				730DB4B315DCB81C489369AB /* [CP] Check Pods Manifest.lock */,
 				A576DD4C218A8544002CCF50 /* Sources */,
 				A576DD4D218A8544002CCF50 /* Frameworks */,
 				A576DD4E218A8544002CCF50 /* Resources */,
@@ -170,6 +213,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A576DD6A218A8544002CCF50 /* Build configuration list for PBXNativeTarget "VeveUITests" */;
 			buildPhases = (
+				7035032227A59BB278081C0A /* [CP] Check Pods Manifest.lock */,
 				A576DD57218A8544002CCF50 /* Sources */,
 				A576DD58218A8544002CCF50 /* Frameworks */,
 				A576DD59218A8544002CCF50 /* Resources */,
@@ -253,6 +297,127 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7035032227A59BB278081C0A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VeveUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		730DB4B315DCB81C489369AB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-VeveTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CB60799AC3592EC9F7043B6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Veve-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7CD68698D53828364A0C0D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Veve/Pods-Veve-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Arrow/Arrow.framework",
+				"${BUILT_PRODUCTS_DIR}/BWWalkthrough/BWWalkthrough.framework",
+				"${BUILT_PRODUCTS_DIR}/Blueprints/Blueprints.framework",
+				"${BUILT_PRODUCTS_DIR}/Cache/Cache.framework",
+				"${BUILT_PRODUCTS_DIR}/ClusterKit/ClusterKit.framework",
+				"${BUILT_PRODUCTS_DIR}/FFPopup/FFPopup.framework",
+				"${BUILT_PRODUCTS_DIR}/FontAwesome.swift/FontAwesome_swift.framework",
+				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
+				"${BUILT_PRODUCTS_DIR}/IHKeyboardAvoiding/IHKeyboardAvoiding.framework",
+				"${BUILT_PRODUCTS_DIR}/Imaginary/Imaginary.framework",
+				"${BUILT_PRODUCTS_DIR}/Lightbox/Lightbox.framework",
+				"${BUILT_PRODUCTS_DIR}/Localize/Localize.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/TrueTime/TrueTime.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Arrow.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BWWalkthrough.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Blueprints.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Cache.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ClusterKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FFPopup.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesome_swift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IHKeyboardAvoiding.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Imaginary.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Lightbox.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Localize.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TrueTime.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Veve/Pods-Veve-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A576DD35218A8543002CCF50 /* Sources */ = {
@@ -434,6 +599,7 @@
 		};
 		A576DD65218A8544002CCF50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FA918DF06382C291F881088 /* Pods-Veve.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -452,6 +618,7 @@
 		};
 		A576DD66218A8544002CCF50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 015878139BFC41C277BB9B60 /* Pods-Veve.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -470,6 +637,7 @@
 		};
 		A576DD68218A8544002CCF50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98F943C25B26A0C224839855 /* Pods-VeveTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -491,6 +659,7 @@
 		};
 		A576DD69218A8544002CCF50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6B69C54533DDE0F41E22605A /* Pods-VeveTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -512,6 +681,7 @@
 		};
 		A576DD6B218A8544002CCF50 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FDD608783C23F6CE4D86727 /* Pods-VeveUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +702,7 @@
 		};
 		A576DD6C218A8544002CCF50 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01CCD2AF036E6639E22ACA7B /* Pods-VeveUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
