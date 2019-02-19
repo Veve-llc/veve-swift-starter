@@ -156,7 +156,6 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Lightbox/Lightbox.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Localize/Localize.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Result/Result.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Spring/Spring.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TrueTime/TrueTime.framework"
 fi
@@ -174,7 +173,6 @@ if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Lightbox/Lightbox.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Localize/Localize.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/Result/Result.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/Spring/Spring.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/TrueTime/TrueTime.framework"
 fi

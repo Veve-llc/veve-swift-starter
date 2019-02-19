@@ -19,7 +19,6 @@ class ViewController: UIViewController {
         miniMaxSum()
         birthdayCakeCandles()
         timeConversion()
-        sockMerchant()
     }
     
     fileprivate func diaganolDifference() {
@@ -189,29 +188,6 @@ class ViewController: UIViewController {
                 }
             }
         }
-    }
-    
-    func isAnAnagram(value1: String, value2: String) -> Bool {
-        return value1.lowercased().characters.sorted() == value2.lowercased().characters.sorted()
-    }
-    
-    func sockMerchant() -> Void {
-        let ar: [Int] = [10, 20, 20, 10, 10, 30, 50, 10, 20]
-        var tempar: [Int]
-        let n = ar.count
-        var num_pair : Int = 0
-        var initialVal: [Int]
-        
-        for i in 0..<n {
-            
-            if(ar.contains(i)){
-                num_pair += 1
-                
-            } else {
-                
-            }
-        }
-        print(num_pair)
     }
 
 }

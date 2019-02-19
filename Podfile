@@ -13,7 +13,6 @@ target 'Veve' do
   pod 'SwiftyJSON'
   pod 'Arrow'
   pod 'FontAwesome.swift'
-  pod 'Spring'
   pod 'Hero'
   pod 'IHKeyboardAvoiding'
   pod 'FFPopup'

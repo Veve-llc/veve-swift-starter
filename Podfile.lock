@@ -16,7 +16,6 @@ PODS:
     - Imaginary (~> 4.0)
   - Localize (2.1.0)
   - Result (3.2.4)
-  - Spring (1.0.5)
   - SwiftLint (0.29.3)
   - SwiftyJSON (4.2.0)
   - TrueTime (5.0.0):
@@ -33,7 +32,6 @@ DEPENDENCIES:
   - IHKeyboardAvoiding
   - Lightbox
   - Localize
-  - Spring
   - SwiftLint
   - SwiftyJSON
   - TrueTime
@@ -53,7 +51,6 @@ SPEC REPOS:
     - Lightbox
     - Localize
     - Result
-    - Spring
     - SwiftLint
     - SwiftyJSON
     - TrueTime
@@ -72,11 +69,10 @@ SPEC CHECKSUMS:
   Lightbox: d317750e4132bfb871a5307cfe0a2c7d6a583c65
   Localize: f360a343abfac047be5b375c45be1059f5f625f3
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
-  Spring: 17901566c8ecf3a1327902b940406c64512f9bb1
   SwiftLint: bfa7ca7b4d170cfaf0d236ca3ffd969e88a2f002
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
   TrueTime: 8fcd3bbbee664a46ab093ac22882eef4aab26229
 
-PODFILE CHECKSUM: 5a3b1fded76d985c0bc54b79f3a1ef42185c8ebf
+PODFILE CHECKSUM: 3611715318f018683ec81859efd1227c06de4851
 
 COCOAPODS: 1.5.3
