@@ -240,13 +240,16 @@
 				TargetAttributes = {
 					A576DD38218A8543002CCF50 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 					};
 					A576DD4F218A8544002CCF50 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = A576DD38218A8543002CCF50;
 					};
 					A576DD5A218A8544002CCF50 = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1020;
 						TestTargetID = A576DD38218A8543002CCF50;
 					};
 				};
@@ -609,7 +612,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Veve.Veve;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -628,7 +631,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Veve.Veve;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -649,7 +652,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Veve.VeveTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veve.app/Veve";
 			};
@@ -671,7 +674,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Veve.VeveTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Veve.app/Veve";
 			};
@@ -692,7 +695,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Veve.VeveUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Veve;
 			};
@@ -713,7 +716,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = Veve.VeveUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Veve;
 			};

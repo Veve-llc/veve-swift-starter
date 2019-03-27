@@ -1,4 +1,5 @@
-![Blueprints logo](https://github.com/zenangst/Blueprints/blob/master/Images/Blueprints-header.png?raw=true)
+![Blueprints logo](Images/Blueprints-header.png?raw=true)
+![Blueprints Preview](Images/Blueprints-Preview.png?raw=true "Blueprints Preview")
 
 <div align="center">
 
@@ -14,7 +15,7 @@
 
 ## Description
 
-<img src="https://github.com/zenangst/Blueprints/blob/master/Images/Blueprints-icon.png?raw=true" width="256" height="256" alt="Blueprints Icon" align="right" />
+<img src="Images/Blueprints-icon.png?raw=true" width="256" height="256" alt="Blueprints Icon" align="right" />
 
 Blueprints is a collection of flow layouts that is meant to make your life easier when working with collection view flow layouts. It comes with two built-in layouts that are highly flexible and easy to configure at the call-site. They support properties like items per row and items per column; this will calculate the layout attributes needed for fitting the number of views that you want to appear on the screen.
 
@@ -28,12 +29,17 @@ The framework also provides a good base for your custom implementations. By exte
 - [x] 📰 Supports header and footers
 - [x] 🖍 Supports sticky headers and footers
 - [x] 🌈 Built-in mosiac layout
-- [x] 💦 Built-in waterfall layout
+- [x] 💦 Built-in vertical layout that supports waterfall
 - [x] 📱 iOS support
 - [x] 💻 macOS support
 - [x] 📺 tvOS support
 - [x] 🦖 Objective-C support
 
+## Preview
+
+| iOS   | macOS  |
+| ------------ | ------------ |
+| <img src="Images/iOS-Preview.gif?raw=true" width="556" alt="iOS PReview"/>  | ![macOS Preview](Images/OSX-Preview.gif?raw=true)  |
 
 ## How do items per row work?
 
@@ -48,13 +54,16 @@ Items per column are explicitly for horizontal layouts and are used to decide ho
 It works just like a regular flow layout, but with a twist. If you want to provide a static size using the regular item size, you are free to do so. As mentioned above, you can also provide the number of views that you want visible on the screen based on the container views width.
 To provide dynamic sizing, you can make your collection view delegate conform to `UICollectionViewDelegateFlowLayout` or `NSCollectionViewDelegateFlowLayout`. That way you can compute the values based on the data coming from the data source etc. Worth noting is that using itemsPerRow takes precedence over the other alternatives.
 
+#### Dynamic sizing preview
+![macOS Preview](Images/iOS-Dynamic-Height.gif?raw=true)
+
 ## Usage
 
 ### Vertical layout
 ```swift
 let blueprintLayout = VerticalBlueprintLayout(
   itemsPerRow: 1.0,
-  itemSize: CGSize(width: 200, height: 60),
+  height: 50,
   minimumInteritemSpacing: 10,
   minimumLineSpacing: 10,
   sectionInset: EdgeInsets(top: 10, left: 10, bottom: 10, right: 10),
@@ -70,7 +79,7 @@ let collectionView = UICollectionView(frame: .zero,
 let blueprintLayout = HorizontalBlueprintLayout(
   itemsPerRow: 1.0,
   itemsPerColumn: 2,
-  itemSize: CGSize(width: 200, height: 200),
+  height: 50,
   minimumInteritemSpacing: 10,
   minimumLineSpacing: 10,
   sectionInset: EdgeInsets(top: 10, left: 10, bottom: 10, right: 10),
@@ -84,7 +93,7 @@ let collectionView = UICollectionView(frame: .zero,
 ### Mosaic layout
 ```swift
 let mosaicLayout = VerticalMosaicBlueprintLayout(
-  itemSize: CGSize.init(width: 50, height: 400),
+  patternHeight: 400,
   minimumInteritemSpacing: 2,
   minimumLineSpacing: 2,
   sectionInset: EdgeInsets(top: 2, left: 2, bottom: 2, right: 2),
@@ -98,17 +107,6 @@ let collectionView = UICollectionView(frame: .zero,
                                       collectionViewLayout: mosaicLayout)
 ```
 
-### Waterfall layout
-```swift
-let waterfallLayout = VerticalWaterfallBlueprintLayout(
-  itemsPerRow: 2,
-  itemSize: CGSize.init(width: 50, height: 400),
-  minimumInteritemSpacing: 2,
-  minimumLineSpacing: 2,
-  sectionInset: EdgeInsets(top: 2, left: 2, bottom: 2, right: 2))
-let collectionView = UICollectionView(frame: .zero,
-                                      collectionViewLayout: waterfallLayout)
-```
 
 ## Installation
 
@@ -128,9 +126,10 @@ github "zenangst/Blueprints"
 
 **Blueprints** can also be installed manually. Just download and drop `Sources` folders in your project.
 
-## Author
+## Author(s)
 
-Christoffer Winterkvist, christoffer@winterkvist.com
+- Christoffer Winterkvist, [@zenangst](https://github.com/zenangst)
+- Christopher Roberts, [@christoff-1992](https://github.com/christoff-1992)
 
 ## Contributing
 

@@ -1,13 +1,13 @@
 PODS:
   - Arrow (4.2.0)
-  - Blueprints (0.8.6)
+  - Blueprints (0.10.1)
   - BWWalkthrough (3.0.1)
   - Cache (5.2.0)
-  - ClusterKit (0.3.5):
-    - ClusterKit/Core (= 0.3.5)
-  - ClusterKit/Core (0.3.5)
+  - ClusterKit (0.4.0):
+    - ClusterKit/Core (= 0.4.0)
+  - ClusterKit/Core (0.4.0)
   - FFPopup (1.0.0)
-  - FontAwesome.swift (1.4.8)
+  - FontAwesome.swift (1.6.0)
   - Hero (1.4.0)
   - IHKeyboardAvoiding (4.6)
   - Imaginary (4.2.0):
@@ -16,7 +16,7 @@ PODS:
     - Imaginary (~> 4.0)
   - Localize (2.1.0)
   - Result (3.2.4)
-  - SwiftLint (0.29.3)
+  - SwiftLint (0.31.0)
   - SwiftyJSON (4.2.0)
   - TrueTime (5.0.0):
     - Result (~> 3.0)
@@ -57,19 +57,19 @@ SPEC REPOS:
 
 SPEC CHECKSUMS:
   Arrow: 7a8fd8f47b3f584ddeac1b783f1f230d183d21a7
-  Blueprints: 6e7e60ba7cf8573fe98616728a72a643bf169d77
+  Blueprints: a4279e672ff11cf837240602b330299c2dc0cf40
   BWWalkthrough: 8c0909d2a20791560816f5f03213557dd52a8a0d
   Cache: 807c5d86d01a177f06ede9865add3aea269bbfd4
-  ClusterKit: d8cc410748bdaacf5051c9353fb6a62d78245554
+  ClusterKit: a15da2e7a437c525b18e10f007fd2198336e3e2e
   FFPopup: f1a9c2bb1df9d9cd254f15081e74112d9ccb6969
-  FontAwesome.swift: fb8637bffb9a588c7e8c753c084565b27b20a39d
+  FontAwesome.swift: 71a422e7b209ee940c7c21a5d13964ecf2897ca4
   Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
   IHKeyboardAvoiding: 2a664fdb5f964359fa7ec8fc5c9aebb447583ff8
   Imaginary: dae33d06dbc2ada22f98afef5eb45cc061311a2c
   Lightbox: d317750e4132bfb871a5307cfe0a2c7d6a583c65
   Localize: f360a343abfac047be5b375c45be1059f5f625f3
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
-  SwiftLint: bfa7ca7b4d170cfaf0d236ca3ffd969e88a2f002
+  SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
   SwiftyJSON: c4bcba26dd9ec7a027fc8eade48e2c911f229e96
   TrueTime: 8fcd3bbbee664a46ab093ac22882eef4aab26229
 
