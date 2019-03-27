@@ -1,12 +1,11 @@
 # veve-swift-starter
 
-[![npm version](https://badge.fury.io/js/create-ueno-app.svg)](https://veveusa.com)
+[![Repo](https://img.shields.io/github/repo-size/Veve-llc/veve-swift-starter.svg)](https://veveusa.com)
 [![devDependency Status](https://david-dm.org/h5bp/html5-boilerplate/dev-status.svg)](https://david-dm.org/h5bp/html5-boilerplate#info=devDependencies)
-[![Swift 4.0](https://img.shields.io/badge/Swift-4.0-green.svg?style=flat)](https://developer.apple.com/swift/)
+[![Swift 5.0](https://img.shields.io/badge/Swift-5.0-brightgreen.svg?style=flat)](https://developer.apple.com/swift/)
 [![GitHub license](https://img.shields.io/badge/license-MIT-lightgrey.svg)](https://raw.githubusercontent.com/Cuberto/flashy-tabbar/master/LICENSE)
 [![Platform](https://camo.githubusercontent.com/34be126e9cb8e20a199d6c9b05eef5b2add84dbb/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f706c6174666f726d732d694f53253230382e302532302537432532306d61634f5325323031302e313025323025374325323074764f53253230392e3025323025374325323077617463684f53253230332e302d4632384430302e737667)](https://veveusa.com)
 [![Logo](https://cl.ly/88bd2e401227/Image%202019-02-17%20at%202.10.33%20AM.png)](https://veveusa.com)
-
 Kick off your project with this opinionated boilerplate. This barebones starter ships with the main swift configuration files you might need.
 
 ## Installation
